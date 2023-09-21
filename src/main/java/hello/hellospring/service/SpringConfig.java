@@ -1,5 +1,6 @@
 package hello.hellospring.service;
 
+import hello.hellospring.aop.TimeTraceAop;
 import hello.hellospring.repository.JpaMemberRepository;
 import hello.hellospring.repository.MemberRepository;
 import org.springframework.context.annotation.Bean;
